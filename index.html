@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Winston Gilbert's personal website — selected work, background, and ways to connect."
+      content="Winston Gilbert is a Computer Science student building agent systems, memory infrastructure, and AI-native computing experiences."
     />
     <meta name="theme-color" content="#f3efe6" />
-    <meta property="og:title" content="Winston Gilbert — Personal Website" />
+    <meta property="og:title" content="Winston Gilbert — AI Systems &amp; Agent Infrastructure" />
     <meta
       property="og:description"
-      content="Selected work, background, and ways to connect with Winston Gilbert."
+      content="Computer Science student building agent systems, memory infrastructure, and AI-native computing experiences."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://winstontg.github.io/" />
-    <title>Winston Gilbert — Personal Website</title>
+    <title>Winston Gilbert — AI Systems &amp; Agent Infrastructure</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
@@ -43,8 +43,10 @@
         </button>
 
         <nav class="site-nav" id="site-navigation" aria-label="Primary navigation" data-nav>
-          <a href="#about">About</a>
           <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#focus">Focus</a>
+          <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
@@ -53,27 +55,46 @@
     <main id="main">
       <section class="hero shell" id="top" aria-labelledby="hero-title">
         <div class="hero-copy" data-reveal>
-          <p class="eyebrow">Hello, I’m Winston <span aria-hidden="true">↘</span></p>
-          <h1 id="hero-title">I turn ambitious ideas into <em>useful</em> digital experiences.</h1>
+          <p class="eyebrow">Computer Science × AI Systems <span aria-hidden="true">↘</span></p>
+          <h1 id="hero-title">Building intelligent systems that understand <em>context</em> and act.</h1>
           <p class="hero-intro">
-            This is my corner of the internet—a place for the things I build, the questions I’m
-            exploring, and the work I’m proud of.
+            I’m Winston Gilbert, a Computer Science student at the University of Utah focused on
+            AI agents, memory systems, world models, and AI-native computing.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#work">See my work</a>
-            <a class="text-link" href="#about">A little about me <span aria-hidden="true">↓</span></a>
+            <a class="button button-primary" href="#work">Explore my work</a>
+            <a
+              class="text-link"
+              href="https://github.com/WinstonTG"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
 
         <div class="hero-art" aria-hidden="true" data-reveal>
           <div class="orb orb-one"></div>
           <div class="orb orb-two"></div>
-          <div class="art-card">
-            <span>Currently</span>
-            <strong>Making ideas tangible.</strong>
-            <svg viewBox="0 0 180 70" role="presentation">
-              <path d="M3 61C33 24 54 45 79 20c22-22 38 2 50 0 22-4 26-19 48-17" />
-            </svg>
+          <div class="art-card system-card">
+            <div class="system-card-header">
+              <span><i></i> Agent runtime</span>
+              <small>Concept 01</small>
+            </div>
+            <div class="system-route">
+              <span>Intent</span>
+              <i>→</i>
+              <strong>Plan + act</strong>
+              <i>→</i>
+              <span>Verify</span>
+            </div>
+            <div class="system-modules">
+              <span>Context</span>
+              <span>Memory</span>
+              <span>Tools</span>
+            </div>
+            <p>Human ↔ AI collaboration</p>
           </div>
           <span class="spark spark-one">✦</span>
           <span class="spark spark-two">✦</span>
@@ -89,19 +110,20 @@
         <div class="shell section-grid">
           <div class="section-label" data-reveal>
             <span>01</span>
-            <p>About</p>
+            <p>Thesis</p>
           </div>
           <div class="about-content" data-reveal>
-            <h2 id="about-title">Curious by nature.<br />Builder by practice.</h2>
+            <h2 id="about-title">AI should be a systems layer—not another tab.</h2>
             <div class="about-columns">
               <p>
-                I enjoy working at the intersection of creativity and technology—taking something
-                fuzzy, finding the important part, and shaping it into an experience people can
-                actually use.
+                I’m interested in what comes after the chatbot era: persistent agents that can
+                maintain context, use trusted tools, operate software, and work across long-running
+                tasks without losing the thread.
               </p>
               <p>
-                This site is a growing record of that work. As I add projects, notes, and
-                experiments, it will become a clearer picture of what I care about and how I think.
+                My work sits between systems engineering, research, and product design. I care about
+                the infrastructure around intelligence—memory, authority, observability, execution,
+                and the interfaces that let people stay in control.
               </p>
             </div>
           </div>
@@ -116,10 +138,10 @@
               <p>Selected work</p>
             </div>
             <div data-reveal>
-              <h2 id="work-title">A home for what<br />I’m building.</h2>
+              <h2 id="work-title">Systems, prototypes,<br />and open questions.</h2>
               <p class="section-intro">
-                These starter cards are ready to become case studies, experiments, or anything else
-                you want to share.
+                Work spanning AI-native computing, deterministic planning, and embedded hardware.
+                Concepts are labeled as concepts; working prototypes are labeled as prototypes.
               </p>
             </div>
           </div>
@@ -128,70 +150,211 @@
             <article class="project-card project-card-featured" data-reveal>
               <div class="project-visual visual-one">
                 <span class="project-number">01</span>
-                <div class="window-mockup">
-                  <span></span><span></span><span></span>
-                  <div class="mockup-content">
-                    <i></i><i></i><i></i>
+                <div class="os-mockup">
+                  <div class="os-topbar"><span>Dreamcatcher</span><i></i><i></i></div>
+                  <div class="os-body">
+                    <div class="os-spaces"><i></i><i></i><i></i><i></i></div>
+                    <div class="os-surface">
+                      <span>Current Space / Research</span>
+                      <strong>What should we work on?</strong>
+                      <div class="os-command">Ask, search, or act <i>↗</i></div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="project-copy">
                 <div>
-                  <p class="project-type">Featured project</p>
-                  <h3>Your signature project</h3>
+                  <p class="project-type">Systems design · Active development</p>
+                  <h3>Dreamcatcher</h3>
                 </div>
                 <p>
-                  Lead with your strongest work. Explain the problem, what you made, and the change
-                  it created.
+                  An AI-native operating system concept built around persistent agents, semantic
+                  Spaces, trusted capabilities, reversible actions, and collaborative human-agent
+                  workflows.
                 </p>
-                <span class="project-link">Case study coming soon <span aria-hidden="true">↗</span></span>
+                <div class="tag-list" aria-label="Dreamcatcher technical focus">
+                  <span>Agent runtime</span><span>Memory</span><span>Capabilities</span><span>NixOS</span>
+                </div>
+                <span class="project-link">Private development project <span aria-hidden="true">01</span></span>
               </div>
             </article>
 
             <article class="project-card" data-reveal>
-              <div class="project-visual visual-two">
+              <div class="project-visual visual-two advisor-visual">
                 <span class="project-number">02</span>
-                <div class="shape-stack"><i></i><i></i><i></i></div>
+                <div class="planner-card">
+                  <div class="planner-ring"><span>72%</span></div>
+                  <div class="planner-lines"><i></i><i></i><i></i><i></i></div>
+                </div>
               </div>
               <div class="project-copy">
                 <div>
-                  <p class="project-type">Experiment</p>
-                  <h3>A recent exploration</h3>
+                  <p class="project-type">Full-stack prototype</p>
+                  <h3>AdvisorAI</h3>
                 </div>
-                <p>Share a prototype, a creative experiment, or something new you learned.</p>
-                <span class="project-link">Details coming soon <span aria-hidden="true">↗</span></span>
+                <p>
+                  A deterministic academic planning tool with prerequisite-aware semester plans,
+                  degree progress tracking, and pathway comparison.
+                </p>
+                <div class="tag-list" aria-label="AdvisorAI technical focus">
+                  <span>TypeScript</span><span>Next.js</span><span>Prisma</span>
+                </div>
+                <a
+                  class="project-link"
+                  href="https://github.com/WinstonTG/AdvisorAI"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View repository <span aria-hidden="true">↗</span>
+                </a>
               </div>
             </article>
 
             <article class="project-card" data-reveal>
-              <div class="project-visual visual-three">
+              <div class="project-visual visual-three device-visual">
                 <span class="project-number">03</span>
-                <div class="dot-field"></div>
+                <div class="rsvp-device">
+                  <div class="device-screen">
+                    <small>280 wpm</small>
+                    <strong>context</strong>
+                    <span><i></i><i></i><i></i><i></i><i></i></span>
+                  </div>
+                  <i class="device-button"></i>
+                </div>
               </div>
               <div class="project-copy">
                 <div>
-                  <p class="project-type">In progress</p>
-                  <h3>What’s next</h3>
+                  <p class="project-type">Embedded prototype</p>
+                  <h3>RSVP Nano</h3>
                 </div>
-                <p>Use this space to make your current direction visible and invite conversation.</p>
-                <span class="project-link">More soon <span aria-hidden="true">↗</span></span>
+                <p>
+                  A custom speed-reading experience for an e-paper device, involving firmware
+                  flashing, embedded UI work, and hardware-level debugging.
+                </p>
+                <div class="tag-list" aria-label="RSVP Nano technical focus">
+                  <span>Firmware</span><span>E-paper</span><span>Embedded UI</span>
+                </div>
+                <span class="project-link">Prototype · Write-up planned <span aria-hidden="true">03</span></span>
               </div>
             </article>
           </div>
         </div>
       </section>
 
+      <section class="experience section" id="experience" aria-labelledby="experience-title">
+        <div class="shell">
+          <div class="section-grid section-heading">
+            <div class="section-label" data-reveal>
+              <span>03</span>
+              <p>Experience</p>
+            </div>
+            <div data-reveal>
+              <h2 id="experience-title">Learning by building<br />and explaining.</h2>
+            </div>
+          </div>
+
+          <ol class="experience-list">
+            <li data-reveal>
+              <p class="experience-date">Summer 2026</p>
+              <div>
+                <p class="project-type">Agent engineering internship</p>
+                <h3>Infrastructure for intelligent agents</h3>
+                <p>
+                  Worked on agent harnesses and memory systems, with emphasis on context,
+                  tool-driven execution, and the production infrastructure surrounding language
+                  models.
+                </p>
+              </div>
+              <span class="experience-index">01</span>
+            </li>
+            <li data-reveal>
+              <p class="experience-date">Current</p>
+              <div>
+                <p class="project-type">Fintech teaching assistant</p>
+                <h3>Technical research and communication</h3>
+                <p>
+                  Support fintech coursework and research technical topics spanning computing,
+                  quantitative systems, and emerging financial technologies.
+                </p>
+              </div>
+              <span class="experience-index">02</span>
+            </li>
+            <li data-reveal>
+              <p class="experience-date">Early research</p>
+              <div>
+                <p class="project-type">University of Arizona</p>
+                <h3>NLP and conversational systems</h3>
+                <p>
+                  Contributed to professor-led NLP and conversational research, establishing an
+                  early interest in language models and intelligent interfaces.
+                </p>
+              </div>
+              <span class="experience-index">03</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="focus section" id="focus" aria-labelledby="focus-title">
+        <div class="shell">
+          <div class="section-grid section-heading">
+            <div class="section-label" data-reveal>
+              <span>04</span>
+              <p>Research focus</p>
+            </div>
+            <div data-reveal>
+              <h2 id="focus-title">Questions worth<br />staying with.</h2>
+              <p class="section-intro">
+                I’m interested in AI systems that maintain state, understand context, interact with
+                the world through tools, and improve at long-horizon tasks.
+              </p>
+            </div>
+          </div>
+
+          <div class="focus-grid">
+            <article data-reveal>
+              <span>01</span>
+              <h3>Agent systems</h3>
+              <p>Planning, tool use, execution environments, observability, and human supervision.</p>
+            </article>
+            <article data-reveal>
+              <span>02</span>
+              <h3>Memory</h3>
+              <p>Persistent context, episodic and semantic memory, provenance, and user control.</p>
+            </article>
+            <article data-reveal>
+              <span>03</span>
+              <h3>World models</h3>
+              <p>Predictive representations for planning, robotics, science, and economic systems.</p>
+            </article>
+            <article data-reveal>
+              <span>04</span>
+              <h3>AI-native computing</h3>
+              <p>Intelligence integrated below the app layer through trusted system capabilities.</p>
+            </article>
+          </div>
+
+          <div class="personal-note" data-reveal>
+            <p class="project-type">Outside the lab</p>
+            <p>
+              I DJ and produce electronic music—the other place I think about tools, feedback,
+              performance, and the craft of turning a rough idea into something people can feel.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section class="contact section" id="contact" aria-labelledby="contact-title">
         <div class="shell contact-inner" data-reveal>
-          <p class="eyebrow">Have something interesting in mind?</p>
-          <h2 id="contact-title">Let’s make something<br /><em>worth sharing.</em></h2>
+          <p class="eyebrow">Agents · Research · Ambitious systems</p>
+          <h2 id="contact-title">Let’s build what comes<br /><em>after the chatbot.</em></h2>
           <a
             class="button button-light"
             href="https://github.com/WinstonTG"
             target="_blank"
             rel="noreferrer"
           >
-            Find me on GitHub <span aria-hidden="true">↗</span>
+            Explore my GitHub <span aria-hidden="true">↗</span>
           </a>
         </div>
       </section>
@@ -200,10 +363,9 @@
     <footer class="site-footer">
       <div class="shell footer-inner">
         <p>© <span data-year></span> Winston Gilbert</p>
-        <p>Designed with intention. Built with plain HTML, CSS &amp; JS.</p>
+        <p>Computer Science · University of Utah</p>
         <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </footer>
   </body>
 </html>
-

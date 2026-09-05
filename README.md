@@ -1,6 +1,6 @@
 # Winston Gilbert — Personal Website
 
-A lightweight, responsive personal website built for GitHub Pages. It uses plain HTML, CSS, and JavaScript, so there is no build step or dependency installation.
+A lightweight, responsive portfolio focused on AI systems, agent infrastructure, research interests, and selected technical projects. It uses plain HTML, CSS, and JavaScript, so there is no build step or dependency installation.
 
 ## Run locally
 
@@ -16,9 +16,11 @@ Then visit <http://localhost:8000>.
 
 The main content lives in `index.html`:
 
-- Replace the introductory copy in the hero and About sections.
-- Replace the three starter project cards with real work.
-- Add contact links in the Contact section.
+- Update professional positioning in the hero and Thesis sections.
+- Maintain Dreamcatcher, AdvisorAI, and RSVP Nano in Selected Work.
+- Add new roles to the Experience timeline.
+- Update research interests in the Focus section.
+- Add contact links in the Contact section when they are ready for public use.
 - Change the colors and spacing in the `:root` variables at the top of `styles.css`.
 
 ## Publish
