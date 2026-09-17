@@ -5,355 +5,722 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Winston Gilbert is a Computer Science student building agent systems, memory infrastructure, and AI-native computing experiences."
+      content="Winston Gilbert builds AI systems, studies philosophy, makes electronic music, and pursues long-horizon work. Explore the rooms that shape his practice."
     />
-    <meta name="theme-color" content="#f3efe6" />
-    <meta property="og:title" content="Winston Gilbert — AI Systems &amp; Agent Infrastructure" />
+    <meta name="theme-color" content="#b97958" />
+    <meta property="og:title" content="Winston Gilbert — Rooms for the work" />
     <meta
       property="og:description"
-      content="Computer Science student building agent systems, memory infrastructure, and AI-native computing experiences."
+      content="An interactive portfolio of intelligent systems, sound, philosophy, and the long game."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://winstontg.github.io/" />
-    <title>Winston Gilbert — AI Systems &amp; Agent Infrastructure</title>
+    <title>Winston Gilbert — Rooms for the work</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main">Skip to the rooms</a>
 
     <header class="site-header" data-header>
-      <div class="shell header-inner">
-        <a class="brand" href="#top" aria-label="Winston Gilbert, back to top">
-          <span class="brand-mark" aria-hidden="true">WG</span>
-          <span class="brand-name">Winston Gilbert</span>
-        </a>
+      <a class="brand" href="#top" aria-label="Winston Gilbert, home">
+        <span class="brand-mark" aria-hidden="true">WG</span>
+        <span class="brand-copy">
+          <strong>Winston Gilbert</strong>
+          <small>Builder · student · selector</small>
+        </span>
+      </a>
 
-        <button
-          class="menu-toggle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="site-navigation"
-          data-menu-toggle
-        >
-          <span class="sr-only">Open navigation</span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </button>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+        data-menu-toggle
+      >
+        <span class="sr-only">Open navigation</span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
 
-        <nav class="site-nav" id="site-navigation" aria-label="Primary navigation" data-nav>
-          <a href="#work">Work</a>
-          <a href="#experience">Experience</a>
-          <a href="#focus">Focus</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation" data-nav>
+        <a href="#rooms">Rooms</a>
+        <a href="#work">Selected work</a>
+        <a href="#path">Path</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
 
     <main id="main">
-      <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <section class="hero" id="top" aria-labelledby="hero-title">
         <div class="hero-copy" data-reveal>
-          <p class="eyebrow">Computer Science × AI Systems <span aria-hidden="true">↘</span></p>
-          <h1 id="hero-title">Building intelligent systems that understand <em>context</em> and act.</h1>
+          <p class="overline">Portfolio / Salt Lake City</p>
+          <h1 id="hero-title">A house for the things I’m <em>building toward.</em></h1>
           <p class="hero-intro">
-            I’m Winston Gilbert, a Computer Science student at the University of Utah focused on
-            AI agents, memory systems, world models, and AI-native computing.
+            I’m Winston Gilbert, a computer science student building systems that expand human
+            agency—and studying the technical, creative, and philosophical questions around them.
           </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#work">Explore my work</a>
-            <a
-              class="text-link"
-              href="https://github.com/WinstonTG"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub <span aria-hidden="true">↗</span>
-            </a>
-          </div>
+          <a class="enter-link" href="#rooms">
+            Enter the rooms
+            <span aria-hidden="true">↓</span>
+          </a>
         </div>
 
-        <div class="hero-art" aria-hidden="true" data-reveal>
-          <div class="orb orb-one"></div>
-          <div class="orb orb-two"></div>
-          <div class="art-card system-card">
-            <div class="system-card-header">
-              <span><i></i> Agent runtime</span>
-              <small>Concept 01</small>
+        <div class="hero-house" aria-hidden="true" data-reveal>
+          <div class="house-shadow"></div>
+          <div class="house-model" data-house-model>
+            <div class="house-roof"></div>
+            <div class="house-side"></div>
+            <div class="house-front">
+              <span class="house-window house-window-one"></span>
+              <span class="house-window house-window-two"></span>
+              <span class="house-door"></span>
+              <i class="house-light"></i>
             </div>
-            <div class="system-route">
-              <span>Intent</span>
-              <i>→</i>
-              <strong>Plan + act</strong>
-              <i>→</i>
-              <span>Verify</span>
-            </div>
-            <div class="system-modules">
-              <span>Context</span>
-              <span>Memory</span>
-              <span>Tools</span>
-            </div>
-            <p>Human ↔ AI collaboration</p>
+            <div class="house-sign">ROOMS<br /><small>01—04</small></div>
+            <span class="house-step step-one"></span>
+            <span class="house-step step-two"></span>
           </div>
-          <span class="spark spark-one">✦</span>
-          <span class="spark spark-two">✦</span>
-        </div>
-
-        <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
-          <span>Scroll to explore</span>
-          <span aria-hidden="true">↓</span>
-        </a>
-      </section>
-
-      <section class="about section" id="about" aria-labelledby="about-title">
-        <div class="shell section-grid">
-          <div class="section-label" data-reveal>
-            <span>01</span>
-            <p>Thesis</p>
-          </div>
-          <div class="about-content" data-reveal>
-            <h2 id="about-title">AI should be a systems layer—not another tab.</h2>
-            <div class="about-columns">
-              <p>
-                I’m interested in what comes after the chatbot era: persistent agents that can
-                maintain context, use trusted tools, operate software, and work across long-running
-                tasks without losing the thread.
-              </p>
-              <p>
-                My work sits between systems engineering, research, and product design. I care about
-                the infrastructure around intelligence—memory, authority, observability, execution,
-                and the interfaces that let people stay in control.
-              </p>
-            </div>
-          </div>
+          <p class="hero-note">Four rooms. One practice.</p>
         </div>
       </section>
 
-      <section class="work section" id="work" aria-labelledby="work-title">
-        <div class="shell">
-          <div class="section-grid section-heading">
-            <div class="section-label" data-reveal>
-              <span>02</span>
-              <p>Selected work</p>
-            </div>
-            <div data-reveal>
-              <h2 id="work-title">Systems, prototypes,<br />and open questions.</h2>
-              <p class="section-intro">
-                Work spanning AI-native computing, deterministic planning, and embedded hardware.
-                Concepts are labeled as concepts; working prototypes are labeled as prototypes.
-              </p>
-            </div>
+      <section class="rooms-section" id="rooms" aria-labelledby="rooms-title">
+        <div class="rooms-heading" data-reveal>
+          <div>
+            <p class="overline overline-light">Room directory / 01—04</p>
+            <h2 id="rooms-title">Follow the objects.<br />They connect the work.</h2>
           </div>
-
-          <div class="project-grid">
-            <article class="project-card project-card-featured" data-reveal>
-              <div class="project-visual visual-one">
-                <span class="project-number">01</span>
-                <div class="os-mockup">
-                  <div class="os-topbar"><span>Dreamcatcher</span><i></i><i></i></div>
-                  <div class="os-body">
-                    <div class="os-spaces"><i></i><i></i><i></i><i></i></div>
-                    <div class="os-surface">
-                      <span>Current Space / Research</span>
-                      <strong>What should we work on?</strong>
-                      <div class="os-command">Ask, search, or act <i>↗</i></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="project-copy">
-                <div>
-                  <p class="project-type">Systems design · Active development</p>
-                  <h3>Dreamcatcher</h3>
-                </div>
-                <p>
-                  An AI-native operating system concept built around persistent agents, semantic
-                  Spaces, trusted capabilities, reversible actions, and collaborative human-agent
-                  workflows.
-                </p>
-                <div class="tag-list" aria-label="Dreamcatcher technical focus">
-                  <span>Agent runtime</span><span>Memory</span><span>Capabilities</span><span>NixOS</span>
-                </div>
-                <span class="project-link">Private development project <span aria-hidden="true">01</span></span>
-              </div>
-            </article>
-
-            <article class="project-card" data-reveal>
-              <div class="project-visual visual-two advisor-visual">
-                <span class="project-number">02</span>
-                <div class="planner-card">
-                  <div class="planner-ring"><span>72%</span></div>
-                  <div class="planner-lines"><i></i><i></i><i></i><i></i></div>
-                </div>
-              </div>
-              <div class="project-copy">
-                <div>
-                  <p class="project-type">Full-stack prototype</p>
-                  <h3>AdvisorAI</h3>
-                </div>
-                <p>
-                  A deterministic academic planning tool with prerequisite-aware semester plans,
-                  degree progress tracking, and pathway comparison.
-                </p>
-                <div class="tag-list" aria-label="AdvisorAI technical focus">
-                  <span>TypeScript</span><span>Next.js</span><span>Prisma</span>
-                </div>
-                <a
-                  class="project-link"
-                  href="https://github.com/WinstonTG/AdvisorAI"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View repository <span aria-hidden="true">↗</span>
-                </a>
-              </div>
-            </article>
-
-            <article class="project-card" data-reveal>
-              <div class="project-visual visual-three device-visual">
-                <span class="project-number">03</span>
-                <div class="rsvp-device">
-                  <div class="device-screen">
-                    <small>280 wpm</small>
-                    <strong>context</strong>
-                    <span><i></i><i></i><i></i><i></i><i></i></span>
-                  </div>
-                  <i class="device-button"></i>
-                </div>
-              </div>
-              <div class="project-copy">
-                <div>
-                  <p class="project-type">Embedded prototype</p>
-                  <h3>RSVP Nano</h3>
-                </div>
-                <p>
-                  A custom speed-reading experience for an e-paper device, involving firmware
-                  flashing, embedded UI work, and hardware-level debugging.
-                </p>
-                <div class="tag-list" aria-label="RSVP Nano technical focus">
-                  <span>Firmware</span><span>E-paper</span><span>Embedded UI</span>
-                </div>
-                <span class="project-link">Prototype · Write-up planned <span aria-hidden="true">03</span></span>
-              </div>
-            </article>
-          </div>
+          <p>
+            Each room holds a different discipline. Together they describe how I think: build
+            systems, develop taste, examine assumptions, and stay with difficult things.
+          </p>
         </div>
-      </section>
 
-      <section class="experience section" id="experience" aria-labelledby="experience-title">
-        <div class="shell">
-          <div class="section-grid section-heading">
-            <div class="section-label" data-reveal>
-              <span>03</span>
-              <p>Experience</p>
-            </div>
-            <div data-reveal>
-              <h2 id="experience-title">Learning by building<br />and explaining.</h2>
-            </div>
-          </div>
-
-          <ol class="experience-list">
-            <li data-reveal>
-              <p class="experience-date">Summer 2026</p>
-              <div>
-                <p class="project-type">Agent engineering internship</p>
-                <h3>Infrastructure for intelligent agents</h3>
-                <p>
-                  Worked on agent harnesses and memory systems, with emphasis on context,
-                  tool-driven execution, and the production infrastructure surrounding language
-                  models.
-                </p>
-              </div>
-              <span class="experience-index">01</span>
-            </li>
-            <li data-reveal>
-              <p class="experience-date">Current</p>
-              <div>
-                <p class="project-type">Fintech teaching assistant</p>
-                <h3>Technical research and communication</h3>
-                <p>
-                  Support fintech coursework and research technical topics spanning computing,
-                  quantitative systems, and emerging financial technologies.
-                </p>
-              </div>
-              <span class="experience-index">02</span>
-            </li>
-            <li data-reveal>
-              <p class="experience-date">Early research</p>
-              <div>
-                <p class="project-type">University of Arizona</p>
-                <h3>NLP and conversational systems</h3>
-                <p>
-                  Contributed to professor-led NLP and conversational research, establishing an
-                  early interest in language models and intelligent interfaces.
-                </p>
-              </div>
-              <span class="experience-index">03</span>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      <section class="focus section" id="focus" aria-labelledby="focus-title">
-        <div class="shell">
-          <div class="section-grid section-heading">
-            <div class="section-label" data-reveal>
-              <span>04</span>
-              <p>Research focus</p>
-            </div>
-            <div data-reveal>
-              <h2 id="focus-title">Questions worth<br />staying with.</h2>
-              <p class="section-intro">
-                I’m interested in AI systems that maintain state, understand context, interact with
-                the world through tools, and improve at long-horizon tasks.
-              </p>
-            </div>
-          </div>
-
-          <div class="focus-grid">
-            <article data-reveal>
+        <div class="room-explorer" data-room-explorer data-reveal>
+          <nav class="room-tabs" role="tablist" aria-label="Choose a room">
+            <button class="room-tab is-active" id="room-tab-systems" type="button" role="tab" aria-controls="room-panel-systems" aria-selected="true" tabindex="0" data-room-target="systems">
               <span>01</span>
-              <h3>Agent systems</h3>
-              <p>Planning, tool use, execution environments, observability, and human supervision.</p>
-            </article>
-            <article data-reveal>
+              <span><strong>Systems lab</strong><small>Agents · world models</small></span>
+            </button>
+            <button class="room-tab" id="room-tab-sound" type="button" role="tab" aria-controls="room-panel-sound" aria-selected="false" tabindex="-1" data-room-target="sound">
               <span>02</span>
-              <h3>Memory</h3>
-              <p>Persistent context, episodic and semantic memory, provenance, and user control.</p>
-            </article>
-            <article data-reveal>
+              <span><strong>Listening room</strong><small>DJing · discovery</small></span>
+            </button>
+            <button class="room-tab" id="room-tab-ideas" type="button" role="tab" aria-controls="room-panel-ideas" aria-selected="false" tabindex="-1" data-room-target="ideas">
               <span>03</span>
-              <h3>World models</h3>
-              <p>Predictive representations for planning, robotics, science, and economic systems.</p>
-            </article>
-            <article data-reveal>
+              <span><strong>Reading room</strong><small>Philosophy · writing</small></span>
+            </button>
+            <button class="room-tab" id="room-tab-long-game" type="button" role="tab" aria-controls="room-panel-long-game" aria-selected="false" tabindex="-1" data-room-target="long-game">
               <span>04</span>
-              <h3>AI-native computing</h3>
-              <p>Intelligence integrated below the app layer through trusted system capabilities.</p>
+              <span><strong>The long room</strong><small>Strength · endurance</small></span>
+            </button>
+          </nav>
+
+          <div class="room-display">
+            <article class="room-panel is-active" id="room-panel-systems" role="tabpanel" aria-labelledby="room-tab-systems" data-room-panel="systems">
+              <div class="room-visual room-visual-systems" data-room-visual>
+                <svg viewBox="0 0 700 590" role="img" aria-labelledby="systems-room-title systems-room-desc">
+                  <title id="systems-room-title">An isometric systems laboratory</title>
+                  <desc id="systems-room-desc">A miniature room with servers, a desk, screens, an agent diagram, and a warm window.</desc>
+                  <defs>
+                    <linearGradient id="sys-left" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#d8c7a5" />
+                      <stop offset="1" stop-color="#aa9a7b" />
+                    </linearGradient>
+                    <linearGradient id="sys-right" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#c8d4c0" />
+                      <stop offset="1" stop-color="#8fa18c" />
+                    </linearGradient>
+                    <linearGradient id="sys-floor" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#916348" />
+                      <stop offset="1" stop-color="#654433" />
+                    </linearGradient>
+                    <radialGradient id="sys-window" cx="40%" cy="42%" r="75%">
+                      <stop offset="0" stop-color="#ffe6a1" />
+                      <stop offset="0.65" stop-color="#f49a67" />
+                      <stop offset="1" stop-color="#b95e63" />
+                    </radialGradient>
+                    <filter id="sys-shadow" x="-40%" y="-40%" width="180%" height="200%">
+                      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#311d18" flood-opacity=".28" />
+                    </filter>
+                    <filter id="sys-glow" x="-100%" y="-100%" width="300%" height="300%">
+                      <feGaussianBlur stdDeviation="7" result="b" />
+                      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+                    </filter>
+                  </defs>
+
+                  <ellipse cx="350" cy="535" rx="285" ry="43" fill="#3b2520" opacity=".2" />
+                  <g filter="url(#sys-shadow)">
+                    <polygon points="92,397 350,253 608,397 350,548" fill="url(#sys-floor)" />
+                    <polygon points="92,397 350,253 350,40 92,184" fill="url(#sys-left)" />
+                    <polygon points="350,253 608,397 608,184 350,40" fill="url(#sys-right)" />
+                    <polyline points="92,397 350,548 608,397" fill="none" stroke="#4a3028" stroke-width="11" />
+                    <polyline points="92,184 350,40 608,184" fill="none" stroke="#eadcbf" stroke-width="10" />
+                  </g>
+
+                  <g opacity=".22" stroke="#e2b48f" stroke-width="2">
+                    <line x1="133" y1="420" x2="391" y2="275" />
+                    <line x1="184" y1="450" x2="442" y2="304" />
+                    <line x1="235" y1="480" x2="493" y2="334" />
+                    <line x1="286" y1="510" x2="544" y2="364" />
+                    <line x1="154" y1="363" x2="412" y2="513" />
+                    <line x1="206" y1="334" x2="464" y2="484" />
+                    <line x1="257" y1="305" x2="515" y2="454" />
+                  </g>
+
+                  <g class="room-window">
+                    <polygon points="132,227 271,150 271,271 132,348" fill="#684b38" />
+                    <polygon points="142,229 261,164 261,263 142,329" fill="url(#sys-window)" />
+                    <line x1="201" y1="197" x2="201" y2="296" stroke="#76513b" stroke-width="7" />
+                    <line x1="142" y1="278" x2="261" y2="213" stroke="#76513b" stroke-width="7" />
+                    <path d="M142 282 L176 250 L205 260 L234 210 L261 222 L261 263 L142 329 Z" fill="#7f6d62" opacity=".45" />
+                  </g>
+
+                  <g class="diagram" transform="translate(390 110)">
+                    <polygon points="0,0 156,87 156,174 0,87" fill="#edf0e6" stroke="#66725f" stroke-width="5" />
+                    <g fill="none" stroke="#66725f" stroke-width="3">
+                      <path d="M27 57 L68 79 L108 73 L136 109" />
+                      <path d="M68 79 L62 119 L112 144" />
+                    </g>
+                    <g fill="#ef7c52" stroke="#66725f" stroke-width="3">
+                      <circle cx="27" cy="57" r="9" />
+                      <circle cx="68" cy="79" r="9" />
+                      <circle cx="108" cy="73" r="9" />
+                      <circle cx="136" cy="109" r="9" />
+                      <circle cx="62" cy="119" r="9" />
+                      <circle cx="112" cy="144" r="9" />
+                    </g>
+                  </g>
+
+                  <g class="server" transform="translate(128 343)">
+                    <polygon points="0,0 72,-39 123,-10 51,31" fill="#313b35" />
+                    <polygon points="51,31 123,-10 123,112 51,154" fill="#202824" />
+                    <polygon points="0,0 51,31 51,154 0,124" fill="#3f4a42" />
+                    <g transform="translate(10 22)" fill="#1b211e" stroke="#708073" stroke-width="2">
+                      <polygon points="0,0 31,18 31,37 0,19" />
+                      <polygon points="0,30 31,48 31,67 0,49" />
+                      <polygon points="0,60 31,78 31,97 0,79" />
+                    </g>
+                    <g fill="#d8ff65" filter="url(#sys-glow)">
+                      <circle cx="34" cy="45" r="3" /><circle cx="34" cy="75" r="3" /><circle cx="34" cy="105" r="3" />
+                    </g>
+                  </g>
+
+                  <g class="desk" transform="translate(322 326)">
+                    <polygon points="0,28 145,-53 239,0 94,83" fill="#cf9260" stroke="#704732" stroke-width="4" />
+                    <polygon points="94,83 239,0 239,25 94,108" fill="#9e6345" />
+                    <polygon points="0,28 94,83 94,108 0,52" fill="#b8754e" />
+                    <path d="M16 52 V146 M82 91 V184 M221 34 V116" stroke="#704732" stroke-width="10" />
+
+                    <g class="monitor" transform="translate(61 -42)">
+                      <polygon points="0,0 78,-43 132,-13 54,32" fill="#29322d" stroke="#151b18" stroke-width="5" />
+                      <polygon points="9,-1 77,-38 121,-13 53,25" fill="#b8ead5" />
+                      <path d="M30 0 L48 -10 L65 -1 L83 -17 L104 -6" fill="none" stroke="#2e6f66" stroke-width="4" />
+                      <circle cx="48" cy="-10" r="4" fill="#ef7c52" />
+                      <path d="M66 28 L66 45" stroke="#202824" stroke-width="6" />
+                    </g>
+                    <g class="monitor monitor-delay" transform="translate(139 -23)">
+                      <polygon points="0,0 61,-34 104,-10 43,25" fill="#29322d" stroke="#151b18" stroke-width="5" />
+                      <polygon points="8,0 61,-29 94,-10 42,18" fill="#17201c" />
+                      <g stroke="#d8ff65" stroke-width="3">
+                        <line x1="25" y1="0" x2="61" y2="-20" /><line x1="35" y1="8" x2="78" y2="-16" /><line x1="47" y1="13" x2="79" y2="-4" />
+                      </g>
+                    </g>
+                    <polygon points="107,53 153,27 183,44 138,70" fill="#efe7cf" stroke="#704732" stroke-width="3" />
+                    <path d="M117 50 L148 33 M127 56 L158 39 M139 62 L170 45" stroke="#879180" stroke-width="2" />
+                    <circle cx="203" cy="26" r="12" fill="#4c766d" />
+                    <path d="M203 35 V57" stroke="#e1d2af" stroke-width="6" />
+                  </g>
+
+                  <g class="bot" transform="translate(253 382)">
+                    <ellipse cx="0" cy="52" rx="33" ry="11" fill="#321f1b" opacity=".2" />
+                    <rect x="-24" y="4" width="48" height="45" rx="13" fill="#eee8d3" stroke="#59675e" stroke-width="4" />
+                    <circle cx="-9" cy="24" r="5" fill="#ef7c52" /><circle cx="9" cy="24" r="5" fill="#ef7c52" />
+                    <path d="M0 4 V-10" stroke="#59675e" stroke-width="4" /><circle cx="0" cy="-14" r="5" fill="#d8ff65" />
+                  </g>
+
+                  <g class="plant" transform="translate(518 327)">
+                    <polygon points="0,18 28,2 53,16 25,33" fill="#b66545" />
+                    <polygon points="0,18 25,33 25,72 0,57" fill="#934c38" />
+                    <path d="M24 12 C9 -15 5 -33 19 -29 C31 -24 26 -4 25 12 M25 12 C38 -20 54 -26 53 -10 C51 4 38 11 25 18 M23 11 C8 -6 -7 -7 -3 7 C2 20 14 19 24 22" fill="#466b50" />
+                  </g>
+                </svg>
+                <span class="room-chip chip-one">Persistent context</span>
+                <span class="room-chip chip-two">Trusted tools</span>
+              </div>
+
+              <div class="room-story">
+                <p class="room-kicker">01 / Systems lab</p>
+                <h3 id="systems-title">Intelligence belongs in the system, not in another tab.</h3>
+                <p>
+                  I’m interested in the infrastructure around intelligent behavior: memory, world
+                  state, authority, tools, observability, and interfaces that keep people in control.
+                </p>
+                <ul class="room-shelf" aria-label="Systems lab focus areas">
+                  <li>Agent systems</li><li>Memory</li><li>World models</li><li>AI-native computing</li>
+                </ul>
+                <a class="room-link" href="#work">See the systems I’m building <span aria-hidden="true">↘</span></a>
+              </div>
+            </article>
+
+            <article class="room-panel" id="room-panel-sound" role="tabpanel" aria-labelledby="room-tab-sound" data-room-panel="sound" hidden>
+              <div class="room-visual room-visual-sound" data-room-visual>
+                <svg viewBox="0 0 700 590" role="img" aria-labelledby="sound-room-title sound-room-desc">
+                  <title id="sound-room-title">An isometric listening and DJ room</title>
+                  <desc id="sound-room-desc">A miniature room with a DJ console, records, speakers, acoustic panels, and warm late-night lighting.</desc>
+                  <defs>
+                    <linearGradient id="music-left" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#82534c" /><stop offset="1" stop-color="#563a38" />
+                    </linearGradient>
+                    <linearGradient id="music-right" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#b66d57" /><stop offset="1" stop-color="#75443e" />
+                    </linearGradient>
+                    <linearGradient id="music-floor" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#392b2c" /><stop offset="1" stop-color="#211d22" />
+                    </linearGradient>
+                    <filter id="music-shadow" x="-40%" y="-40%" width="180%" height="200%">
+                      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#160f13" flood-opacity=".45" />
+                    </filter>
+                    <filter id="neon-glow" x="-100%" y="-100%" width="300%" height="300%">
+                      <feGaussianBlur stdDeviation="5" result="blur" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+                    </filter>
+                  </defs>
+
+                  <ellipse cx="350" cy="535" rx="285" ry="43" fill="#2b1820" opacity=".28" />
+                  <g filter="url(#music-shadow)">
+                    <polygon points="92,397 350,253 608,397 350,548" fill="url(#music-floor)" />
+                    <polygon points="92,397 350,253 350,40 92,184" fill="url(#music-left)" />
+                    <polygon points="350,253 608,397 608,184 350,40" fill="url(#music-right)" />
+                    <polyline points="92,397 350,548 608,397" fill="none" stroke="#1c171a" stroke-width="11" />
+                    <polyline points="92,184 350,40 608,184" fill="none" stroke="#bc7c63" stroke-width="10" />
+                  </g>
+
+                  <g opacity=".25" stroke="#8e5d55" stroke-width="2">
+                    <line x1="120" y1="412" x2="378" y2="268" /><line x1="171" y1="442" x2="429" y2="297" />
+                    <line x1="222" y1="472" x2="480" y2="326" /><line x1="273" y1="502" x2="531" y2="356" />
+                  </g>
+
+                  <g class="wave-poster" transform="translate(385 118)">
+                    <polygon points="0,0 163,91 163,170 0,79" fill="#2a2529" stroke="#e2aa72" stroke-width="5" />
+                    <path d="M18 54 L30 47 L42 70 L55 30 L69 86 L82 42 L95 74 L108 47 L121 95 L134 65 L147 75" fill="none" stroke="#ffbd69" stroke-width="5" filter="url(#neon-glow)" />
+                  </g>
+
+                  <g class="record-shelf" transform="translate(118 260)">
+                    <polygon points="0,0 101,-56 101,80 0,137" fill="#2b2529" stroke="#1c171a" stroke-width="5" />
+                    <line x1="0" y1="48" x2="101" y2="-8" stroke="#b7795d" stroke-width="5" />
+                    <line x1="0" y1="93" x2="101" y2="37" stroke="#b7795d" stroke-width="5" />
+                    <g stroke-width="7">
+                      <line x1="12" y1="36" x2="12" y2="4" stroke="#e18e61" /><line x1="23" y1="30" x2="23" y2="-2" stroke="#ddb76c" />
+                      <line x1="35" y1="23" x2="35" y2="-9" stroke="#8b9c86" /><line x1="47" y1="16" x2="47" y2="-16" stroke="#e6d7b6" />
+                      <line x1="59" y1="10" x2="59" y2="-22" stroke="#c85f5f" /><line x1="71" y1="3" x2="71" y2="-29" stroke="#91a6b2" />
+                      <line x1="13" y1="83" x2="13" y2="52" stroke="#91a6b2" /><line x1="25" y1="76" x2="25" y2="45" stroke="#c85f5f" />
+                      <line x1="37" y1="69" x2="37" y2="38" stroke="#e6d7b6" /><line x1="49" y1="63" x2="49" y2="32" stroke="#ddb76c" />
+                    </g>
+                  </g>
+
+                  <g class="speaker speaker-left" transform="translate(159 361)">
+                    <polygon points="0,0 50,-28 86,-8 36,21" fill="#2b292b" />
+                    <polygon points="0,0 36,21 36,132 0,111" fill="#171619" />
+                    <polygon points="36,21 86,-8 86,103 36,132" fill="#242326" />
+                    <ellipse cx="18" cy="46" rx="12" ry="17" fill="#c27856" transform="rotate(-28 18 46)" />
+                    <ellipse cx="18" cy="86" rx="15" ry="21" fill="#b75950" transform="rotate(-28 18 86)" />
+                  </g>
+                  <g class="speaker speaker-right" transform="translate(496 342)">
+                    <polygon points="0,0 50,-28 86,-8 36,21" fill="#2b292b" />
+                    <polygon points="0,0 36,21 36,132 0,111" fill="#171619" />
+                    <polygon points="36,21 86,-8 86,103 36,132" fill="#242326" />
+                    <ellipse cx="18" cy="46" rx="12" ry="17" fill="#c27856" transform="rotate(-28 18 46)" />
+                    <ellipse cx="18" cy="86" rx="15" ry="21" fill="#b75950" transform="rotate(-28 18 86)" />
+                  </g>
+
+                  <g class="dj-desk" transform="translate(242 343)">
+                    <polygon points="0,39 143,-41 249,19 106,101" fill="#bd7854" stroke="#422b2d" stroke-width="5" />
+                    <polygon points="106,101 249,19 249,48 106,130" fill="#7c473e" />
+                    <polygon points="0,39 106,101 106,130 0,67" fill="#965645" />
+                    <path d="M17 69 V149 M92 119 V196 M232 57 V135" stroke="#4a3030" stroke-width="11" />
+                    <polygon points="21,30 137,-35 219,12 103,78" fill="#252328" stroke="#17161a" stroke-width="4" />
+                    <ellipse cx="72" cy="27" rx="41" ry="24" fill="#111115" transform="rotate(-29 72 27)" stroke="#d9a65d" stroke-width="3" />
+                    <ellipse cx="171" cy="10" rx="41" ry="24" fill="#111115" transform="rotate(-29 171 10)" stroke="#d9a65d" stroke-width="3" />
+                    <ellipse cx="72" cy="27" rx="8" ry="5" fill="#dc6d56" transform="rotate(-29 72 27)" />
+                    <ellipse cx="171" cy="10" rx="8" ry="5" fill="#dc6d56" transform="rotate(-29 171 10)" />
+                    <polygon points="105,25 133,9 157,23 129,39" fill="#484249" />
+                    <g fill="#ffc66b"><circle cx="119" cy="24" r="3" /><circle cx="130" cy="18" r="3" /><circle cx="141" cy="24" r="3" /></g>
+                  </g>
+
+                  <g class="music-plant" transform="translate(532 307)">
+                    <ellipse cx="0" cy="106" rx="29" ry="9" fill="#160f13" opacity=".3" />
+                    <polygon points="-19,53 14,34 42,50 9,70" fill="#d18b62" />
+                    <polygon points="-19,53 9,70 9,106 -19,90" fill="#8d4b42" />
+                    <path d="M7 43 C-17 5 -9 -13 6 2 C18 14 12 31 9 44 M9 42 C24 4 42 -7 42 13 C42 29 27 38 12 49 M3 43 C-15 24 -32 27 -23 42 C-15 55 -2 51 8 52" fill="#657b62" />
+                  </g>
+
+                  <g class="hanging-light" filter="url(#neon-glow)">
+                    <path d="M350 40 V105" stroke="#2d2529" stroke-width="5" />
+                    <path d="M315 124 Q350 80 385 124 Z" fill="#ee9a62" />
+                    <ellipse cx="350" cy="125" rx="36" ry="12" fill="#ffca78" opacity=".85" />
+                  </g>
+                </svg>
+                <span class="room-chip chip-one">Taste over feeds</span>
+                <span class="room-chip chip-two">Graph discovery</span>
+              </div>
+
+              <div class="room-story">
+                <p class="room-kicker">02 / Listening room</p>
+                <h3 id="sound-title">Find the track no feed thought to recommend.</h3>
+                <p>
+                  DJing and electronic music are where I practice taste, timing, and iteration. I’m
+                  also exploring music discovery systems built from scenes, labels, collaborators,
+                  and the paths between them—not only sonic similarity.
+                </p>
+                <ul class="room-shelf" aria-label="Listening room focus areas">
+                  <li>Selector DJing</li><li>MusicMind</li><li>Production</li><li>Creative tools</li>
+                </ul>
+                <span class="room-link room-link-static">Listen deeply. Build the map. <span aria-hidden="true">⌁</span></span>
+              </div>
+            </article>
+
+            <article class="room-panel" id="room-panel-ideas" role="tabpanel" aria-labelledby="room-tab-ideas" data-room-panel="ideas" hidden>
+              <div class="room-visual room-visual-ideas" data-room-visual>
+                <svg viewBox="0 0 700 590" role="img" aria-labelledby="ideas-room-title ideas-room-desc">
+                  <title id="ideas-room-title">An isometric philosophy reading room</title>
+                  <desc id="ideas-room-desc">A miniature library with bookshelves, an open book, a writing desk, a lamp, and question cards on the wall.</desc>
+                  <defs>
+                    <linearGradient id="ideas-left" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#d5c39f" /><stop offset="1" stop-color="#9c8a69" />
+                    </linearGradient>
+                    <linearGradient id="ideas-right" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0" stop-color="#788271" /><stop offset="1" stop-color="#526052" />
+                    </linearGradient>
+                    <linearGradient id="ideas-floor" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#916744" /><stop offset="1" stop-color="#5e3d2e" />
+                    </linearGradient>
+                    <filter id="ideas-shadow" x="-40%" y="-40%" width="180%" height="200%">
+                      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#2f2018" flood-opacity=".35" />
+                    </filter>
+                    <filter id="lamp-glow" x="-100%" y="-100%" width="300%" height="300%">
+                      <feGaussianBlur stdDeviation="7" result="blur" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+                    </filter>
+                  </defs>
+
+                  <ellipse cx="350" cy="535" rx="285" ry="43" fill="#3b281e" opacity=".22" />
+                  <g filter="url(#ideas-shadow)">
+                    <polygon points="92,397 350,253 608,397 350,548" fill="url(#ideas-floor)" />
+                    <polygon points="92,397 350,253 350,40 92,184" fill="url(#ideas-left)" />
+                    <polygon points="350,253 608,397 608,184 350,40" fill="url(#ideas-right)" />
+                    <polyline points="92,397 350,548 608,397" fill="none" stroke="#493025" stroke-width="11" />
+                    <polyline points="92,184 350,40 608,184" fill="none" stroke="#ddd0ad" stroke-width="10" />
+                  </g>
+
+                  <g opacity=".2" stroke="#e2b48f" stroke-width="2">
+                    <line x1="133" y1="420" x2="391" y2="275" /><line x1="184" y1="450" x2="442" y2="304" />
+                    <line x1="235" y1="480" x2="493" y2="334" /><line x1="286" y1="510" x2="544" y2="364" />
+                  </g>
+
+                  <g class="bookshelf" transform="translate(119 239)">
+                    <polygon points="0,0 176,-98 176,80 0,179" fill="#72472e" stroke="#4c2e21" stroke-width="6" />
+                    <line x1="0" y1="52" x2="176" y2="-46" stroke="#a76c42" stroke-width="8" />
+                    <line x1="0" y1="109" x2="176" y2="11" stroke="#a76c42" stroke-width="8" />
+                    <g stroke-width="10">
+                      <line x1="15" y1="40" x2="15" y2="4" stroke="#b86447" /><line x1="31" y1="31" x2="31" y2="-5" stroke="#e0bd75" />
+                      <line x1="47" y1="22" x2="47" y2="-14" stroke="#566b5a" /><line x1="63" y1="13" x2="63" y2="-23" stroke="#d5c9a8" />
+                      <line x1="79" y1="4" x2="79" y2="-32" stroke="#7a5d7e" /><line x1="95" y1="-5" x2="95" y2="-41" stroke="#c77856" />
+                      <line x1="16" y1="98" x2="16" y2="61" stroke="#d5c9a8" /><line x1="32" y1="89" x2="32" y2="52" stroke="#7a5d7e" />
+                      <line x1="48" y1="80" x2="48" y2="43" stroke="#c77856" /><line x1="64" y1="71" x2="64" y2="34" stroke="#566b5a" />
+                      <line x1="80" y1="62" x2="80" y2="25" stroke="#e0bd75" /><line x1="96" y1="53" x2="96" y2="16" stroke="#b86447" />
+                      <line x1="112" y1="44" x2="112" y2="7" stroke="#8192a0" /><line x1="128" y1="35" x2="128" y2="-2" stroke="#d5c9a8" />
+                      <line x1="15" y1="155" x2="15" y2="119" stroke="#566b5a" /><line x1="31" y1="146" x2="31" y2="110" stroke="#e0bd75" />
+                      <line x1="47" y1="137" x2="47" y2="101" stroke="#b86447" /><line x1="63" y1="128" x2="63" y2="92" stroke="#8192a0" />
+                    </g>
+                  </g>
+
+                  <g class="question-cards" transform="translate(395 119)">
+                    <polygon points="0,0 62,35 62,83 0,48" fill="#eee2bf" stroke="#4b5b4d" stroke-width="4" />
+                    <polygon points="78,43 140,78 140,126 78,91" fill="#dfc78b" stroke="#4b5b4d" stroke-width="4" />
+                    <polygon points="8,74 70,109 70,157 8,122" fill="#d58a65" stroke="#4b5b4d" stroke-width="4" />
+                    <g fill="none" stroke="#5a5b4d" stroke-width="3"><path d="M12 24 L49 45 M12 35 L43 53" /><path d="M90 68 L127 89 M90 79 L121 97" /><path d="M20 98 L57 119 M20 109 L51 127" /></g>
+                  </g>
+
+                  <g class="rug">
+                    <ellipse cx="364" cy="438" rx="111" ry="61" fill="#b96b55" transform="rotate(1 364 438)" />
+                    <ellipse cx="364" cy="438" rx="84" ry="45" fill="none" stroke="#e5b76e" stroke-width="8" stroke-dasharray="12 9" />
+                  </g>
+
+                  <g class="reading-desk" transform="translate(287 320)">
+                    <polygon points="0,50 132,-24 231,32 99,108" fill="#be8353" stroke="#5d3a27" stroke-width="5" />
+                    <polygon points="99,108 231,32 231,57 99,133" fill="#8e583a" />
+                    <polygon points="0,50 99,108 99,133 0,75" fill="#a76842" />
+                    <path d="M17 78 V161 M86 122 V202 M214 67 V146" stroke="#5d3a27" stroke-width="11" />
+                    <g class="open-book" transform="translate(62 16)">
+                      <path d="M0 20 Q34 -11 69 13 L69 54 Q34 30 0 61 Z" fill="#f1e7ca" stroke="#79654c" stroke-width="3" />
+                      <path d="M69 13 Q104 -4 137 23 L137 63 Q104 39 69 54 Z" fill="#e7d8b7" stroke="#79654c" stroke-width="3" />
+                      <line x1="69" y1="13" x2="69" y2="54" stroke="#79654c" stroke-width="3" />
+                      <g stroke="#b3a583" stroke-width="2"><line x1="13" y1="25" x2="54" y2="3" /><line x1="14" y1="37" x2="54" y2="15" /><line x1="84" y1="17" x2="122" y2="38" /><line x1="84" y1="29" x2="121" y2="50" /></g>
+                    </g>
+                    <g class="lamp" transform="translate(181 -16)">
+                      <path d="M0 53 V0 M0 5 L-28 20" stroke="#3e4d42" stroke-width="7" />
+                      <path d="M-47 17 Q-28 -5 -9 17 Z" fill="#d7a552" />
+                      <ellipse cx="-28" cy="18" rx="20" ry="7" fill="#ffd780" filter="url(#lamp-glow)" />
+                      <ellipse cx="0" cy="58" rx="21" ry="11" fill="#3e4d42" />
+                    </g>
+                    <polygon points="26,52 53,37 71,47 44,63" fill="#324139" />
+                    <path d="M33 52 L57 39" stroke="#d6bc68" stroke-width="3" />
+                  </g>
+
+                  <g class="chair" transform="translate(306 430)">
+                    <ellipse cx="40" cy="84" rx="45" ry="14" fill="#34231d" opacity=".18" />
+                    <polygon points="0,10 55,-20 100,5 45,37" fill="#486052" />
+                    <polygon points="0,10 45,37 45,72 0,45" fill="#35483d" />
+                    <path d="M4 45 V87 M42 67 V112 M89 22 V72" stroke="#2c3c33" stroke-width="9" />
+                    <path d="M8 7 V-55 L54 -29 V31" fill="none" stroke="#35483d" stroke-width="15" />
+                  </g>
+
+                  <g class="stacked-books" transform="translate(503 359)">
+                    <polygon points="0,42 54,12 91,33 37,64" fill="#e2be70" /><polygon points="4,27 58,-3 95,18 41,49" fill="#8b6688" /><polygon points="0,12 54,-18 91,3 37,34" fill="#c86f54" />
+                  </g>
+                </svg>
+                <span class="room-chip chip-one">What is a good life?</span>
+                <span class="room-chip chip-two">Revise the premises</span>
+              </div>
+
+              <div class="room-story">
+                <p class="room-kicker">03 / Reading room</p>
+                <h3 id="ideas-title">Build a worldview slowly enough to test it.</h3>
+                <p>
+                  Philosophy is a lifelong practice: read the strongest arguments, write down what I
+                  think, and revise it when the premises fail. I’m especially drawn to mind, ethics,
+                  meaning, aesthetics, and the traditions that disagree about them.
+                </p>
+                <ul class="room-shelf" aria-label="Reading room focus areas">
+                  <li>Meaning</li><li>Philosophy of mind</li><li>Ethics</li><li>Aesthetics</li>
+                </ul>
+                <span class="room-link room-link-static">Read. Argue. Rewrite. <span aria-hidden="true">↻</span></span>
+              </div>
+            </article>
+
+            <article class="room-panel" id="room-panel-long-game" role="tabpanel" aria-labelledby="room-tab-long-game" data-room-panel="long-game" hidden>
+              <div class="room-visual room-visual-long" data-room-visual>
+                <svg viewBox="0 0 700 590" role="img" aria-labelledby="long-room-title long-room-desc">
+                  <title id="long-room-title">An isometric training and endurance room</title>
+                  <desc id="long-room-desc">A miniature room with a mountain window, training bench, weights, running shoes, map, and a packed bag.</desc>
+                  <defs>
+                    <linearGradient id="long-left" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9d3c4" /><stop offset="1" stop-color="#8ca08e" /></linearGradient>
+                    <linearGradient id="long-right" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d6c9ad" /><stop offset="1" stop-color="#a99572" /></linearGradient>
+                    <linearGradient id="long-floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#88715a" /><stop offset="1" stop-color="#55483d" /></linearGradient>
+                    <linearGradient id="mountain-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7aa6b2" /><stop offset="1" stop-color="#f2c57f" /></linearGradient>
+                    <filter id="long-shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#2a2520" flood-opacity=".28" /></filter>
+                  </defs>
+
+                  <ellipse cx="350" cy="535" rx="285" ry="43" fill="#342a24" opacity=".2" />
+                  <g filter="url(#long-shadow)">
+                    <polygon points="92,397 350,253 608,397 350,548" fill="url(#long-floor)" />
+                    <polygon points="92,397 350,253 350,40 92,184" fill="url(#long-left)" />
+                    <polygon points="350,253 608,397 608,184 350,40" fill="url(#long-right)" />
+                    <polyline points="92,397 350,548 608,397" fill="none" stroke="#463a32" stroke-width="11" />
+                    <polyline points="92,184 350,40 608,184" fill="none" stroke="#e4dcc9" stroke-width="10" />
+                  </g>
+
+                  <g opacity=".18" stroke="#d2b596" stroke-width="2">
+                    <line x1="133" y1="420" x2="391" y2="275" /><line x1="184" y1="450" x2="442" y2="304" /><line x1="235" y1="480" x2="493" y2="334" /><line x1="286" y1="510" x2="544" y2="364" />
+                  </g>
+
+                  <g class="mountain-window">
+                    <polygon points="126,226 278,142 278,276 126,360" fill="#536558" />
+                    <polygon points="138,229 266,158 266,269 138,340" fill="url(#mountain-sky)" />
+                    <path d="M138 292 L173 247 L199 269 L226 216 L266 264 L266 269 L138 340 Z" fill="#657768" />
+                    <path d="M199 269 L226 216 L239 232 L226 231 L219 242 L211 241 Z" fill="#f0ede0" />
+                    <path d="M138 310 L171 278 L189 292 L212 265 L244 295 L266 279 L266 340 L138 340 Z" fill="#455d4e" />
+                    <line x1="202" y1="194" x2="202" y2="304" stroke="#536558" stroke-width="7" />
+                  </g>
+
+                  <g class="topo-map" transform="translate(395 117)">
+                    <polygon points="0,0 164,91 164,172 0,81" fill="#e8ddc0" stroke="#6e715e" stroke-width="5" />
+                    <g fill="none" stroke="#84927d" stroke-width="3">
+                      <path d="M20 53 C39 20 65 80 84 47 S122 70 146 44" />
+                      <path d="M18 74 C42 43 64 97 91 68 S124 92 148 67" />
+                      <path d="M22 96 C46 66 67 120 94 92 S126 117 145 94" />
+                      <path d="M28 118 C50 91 73 139 99 115 S127 139 141 120" />
+                    </g>
+                    <circle cx="111" cy="81" r="7" fill="#d9654a" />
+                  </g>
+
+                  <g class="rack" transform="translate(417 282)">
+                    <path d="M0 40 V155 M121 -27 V90 M0 40 L121 -27" fill="none" stroke="#34413a" stroke-width="12" />
+                    <path d="M4 67 L105 10" stroke="#34413a" stroke-width="7" />
+                    <path d="M0 120 L86 72" stroke="#34413a" stroke-width="7" />
+                    <g fill="#2d3530"><ellipse cx="30" cy="106" rx="19" ry="10" transform="rotate(-29 30 106)" /><ellipse cx="58" cy="90" rx="19" ry="10" transform="rotate(-29 58 90)" /><ellipse cx="85" cy="75" rx="19" ry="10" transform="rotate(-29 85 75)" /></g>
+                  </g>
+
+                  <g class="bench" transform="translate(236 363)">
+                    <polygon points="0,25 132,-49 190,-16 58,59" fill="#44554a" stroke="#2c3731" stroke-width="5" />
+                    <polygon points="58,59 190,-16 190,8 58,83" fill="#2f3e35" />
+                    <path d="M18 36 V106 M56 73 V143 M174 17 V86" stroke="#2c3731" stroke-width="10" />
+                    <g class="barbell" transform="translate(11 -2)">
+                      <path d="M0 0 L176 -99" stroke="#2d3430" stroke-width="8" />
+                      <ellipse cx="8" cy="-4" rx="15" ry="25" fill="#222925" transform="rotate(-29 8 -4)" />
+                      <ellipse cx="168" cy="-94" rx="15" ry="25" fill="#222925" transform="rotate(-29 168 -94)" />
+                    </g>
+                  </g>
+
+                  <g class="bag" transform="translate(119 374)">
+                    <ellipse cx="31" cy="89" rx="38" ry="12" fill="#2c231f" opacity=".2" />
+                    <path d="M0 18 Q32 -14 64 18 L71 82 Q32 105 -7 82 Z" fill="#b9684d" stroke="#704335" stroke-width="5" />
+                    <path d="M14 15 Q32 -22 50 15" fill="none" stroke="#704335" stroke-width="7" />
+                    <path d="M5 46 H63" stroke="#e4b16d" stroke-width="5" />
+                  </g>
+
+                  <g class="shoes" transform="translate(454 442)">
+                    <path d="M0 17 Q24 4 44 18 L73 47 Q45 65 6 49 Z" fill="#e3d7bd" stroke="#666b5f" stroke-width="4" />
+                    <path d="M68 -20 Q92 -33 112 -19 L141 10 Q113 28 74 12 Z" fill="#d86e50" stroke="#666b5f" stroke-width="4" />
+                    <path d="M18 28 L47 42 M85 -8 L114 6" stroke="#8f755d" stroke-width="3" />
+                  </g>
+
+                  <g class="timer" transform="translate(309 115)">
+                    <circle cx="0" cy="0" r="34" fill="#e9e2cd" stroke="#536558" stroke-width="6" />
+                    <path d="M0 0 V-20 M0 0 L16 9" stroke="#536558" stroke-width="5" stroke-linecap="round" />
+                    <circle cx="0" cy="0" r="4" fill="#d9654a" />
+                  </g>
+
+                  <g class="water-bottle" transform="translate(330 409)">
+                    <ellipse cx="0" cy="0" rx="13" ry="7" fill="#84a9a5" />
+                    <path d="M-13 0 V55 Q0 67 13 55 V0" fill="#75a39f" opacity=".85" />
+                    <ellipse cx="0" cy="55" rx="13" ry="7" fill="#5f8f8b" />
+                    <rect x="-6" y="-12" width="12" height="12" rx="2" fill="#354943" />
+                  </g>
+                </svg>
+                <span class="room-chip chip-one">Long horizons</span>
+                <span class="room-chip chip-two">Earn the next mile</span>
+              </div>
+
+              <div class="room-story">
+                <p class="room-kicker">04 / The long room</p>
+                <h3 id="long-game-title">Choose pursuits long enough to change you.</h3>
+                <p>
+                  Strength and endurance keep my thinking honest. Progress is physical, cumulative,
+                  and difficult to fake—the same posture I want to bring to research, creative work,
+                  and ambitious systems.
+                </p>
+                <ul class="room-shelf" aria-label="Long room focus areas">
+                  <li>Strength</li><li>Endurance</li><li>Outdoors</li><li>Consistency</li>
+                </ul>
+                <span class="room-link room-link-static">Stay with the work. <span aria-hidden="true">→</span></span>
+              </div>
             </article>
           </div>
 
-          <div class="personal-note" data-reveal>
-            <p class="project-type">Outside the lab</p>
-            <p>
-              I DJ and produce electronic music—the other place I think about tools, feedback,
-              performance, and the craft of turning a rough idea into something people can feel.
-            </p>
+          <div class="room-controls" role="group" aria-label="Room controls">
+            <p><span data-current-room>01</span> / 04</p>
+            <div>
+              <button type="button" data-room-prev aria-label="Previous room">←</button>
+              <button type="button" data-room-next aria-label="Next room">→</button>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="contact section" id="contact" aria-labelledby="contact-title">
-        <div class="shell contact-inner" data-reveal>
-          <p class="eyebrow">Agents · Research · Ambitious systems</p>
-          <h2 id="contact-title">Let’s build what comes<br /><em>after the chatbot.</em></h2>
-          <a
-            class="button button-light"
-            href="https://github.com/WinstonTG"
-            target="_blank"
-            rel="noreferrer"
-          >
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-title" data-reveal>
+          <p class="overline">Selected work / systems lab</p>
+          <h2 id="work-title">Things with<br />a working edge.</h2>
+          <p>
+            Projects where systems thinking becomes software, interfaces, and hardware.
+          </p>
+        </div>
+
+        <div class="work-list">
+          <article class="work-item work-item-featured" data-reveal>
+            <div class="work-index">01</div>
+            <div class="work-main">
+              <p class="work-meta">Active development · AI-native operating environment</p>
+              <h3>Dreamcatcher</h3>
+              <p>
+                A personal computing environment organized around persistent agents, semantic
+                Spaces, trusted capabilities, reversible actions, and collaborative human–agent work.
+              </p>
+            </div>
+            <div class="work-tags"><span>Agent runtime</span><span>Memory</span><span>NixOS</span><span>Capabilities</span></div>
+            <span class="work-link">Private project <span aria-hidden="true">⌁</span></span>
+          </article>
+
+          <article class="work-item" data-reveal>
+            <div class="work-index">02</div>
+            <div class="work-main">
+              <p class="work-meta">Full-stack prototype · Deterministic planning</p>
+              <h3>AdvisorAI</h3>
+              <p>
+                Prerequisite-aware semester planning, degree progress tracking, and pathway
+                comparison without handing core logic to a language model.
+              </p>
+            </div>
+            <div class="work-tags"><span>TypeScript</span><span>Next.js</span><span>Prisma</span></div>
+            <a class="work-link" href="https://github.com/WinstonTG/AdvisorAI" target="_blank" rel="noreferrer">Repository <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="work-item" data-reveal>
+            <div class="work-index">03</div>
+            <div class="work-main">
+              <p class="work-meta">Embedded prototype · Reading interface</p>
+              <h3>RSVP Nano</h3>
+              <p>
+                A custom rapid serial visual presentation experience for an e-paper device,
+                involving firmware flashing, embedded UI work, and hardware-level debugging.
+              </p>
+            </div>
+            <div class="work-tags"><span>Firmware</span><span>E-paper</span><span>Embedded UI</span></div>
+            <span class="work-link">Write-up planned <span aria-hidden="true">03</span></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="path-section" id="path" aria-labelledby="path-title">
+        <div class="path-intro" data-reveal>
+          <p class="overline overline-light">Path / still in motion</p>
+          <h2 id="path-title">Learning by building,<br />then explaining.</h2>
+        </div>
+        <ol class="path-list">
+          <li data-reveal>
+            <span>Now</span>
+            <div>
+              <p>Computer Science · University of Utah</p>
+              <h3>Studying foundations while building beyond the syllabus.</h3>
+            </div>
+          </li>
+          <li data-reveal>
+            <span>2026</span>
+            <div>
+              <p>Agent engineering internship</p>
+              <h3>Agent harnesses, memory systems, and production infrastructure.</h3>
+            </div>
+          </li>
+          <li data-reveal>
+            <span>Ongoing</span>
+            <div>
+              <p>Fintech teaching assistant</p>
+              <h3>Technical research made legible enough to teach.</h3>
+            </div>
+          </li>
+          <li data-reveal>
+            <span>Earlier</span>
+            <div>
+              <p>University of Arizona research</p>
+              <h3>NLP, conversation, and an early interest in intelligent interfaces.</h3>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div data-reveal>
+          <p class="overline">Front door / open</p>
+          <h2 id="contact-title">If you’re building<br />past the obvious, <em>say hello.</em></h2>
+        </div>
+        <div class="contact-side" data-reveal>
+          <p>
+            I’m especially interested in conversations about agents, world models, AI-native
+            computing, creative tools, and ambitious technical work.
+          </p>
+          <a href="https://github.com/WinstonTG" target="_blank" rel="noreferrer">
             Explore my GitHub <span aria-hidden="true">↗</span>
           </a>
         </div>
@@ -361,11 +728,9 @@
     </main>
 
     <footer class="site-footer">
-      <div class="shell footer-inner">
-        <p>© <span data-year></span> Winston Gilbert</p>
-        <p>Computer Science · University of Utah</p>
-        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
-      </div>
+      <p>© <span data-year></span> Winston Gilbert</p>
+      <p>Computer Science · University of Utah</p>
+      <a href="#top">Back upstairs <span aria-hidden="true">↑</span></a>
     </footer>
   </body>
 </html>
